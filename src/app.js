@@ -29,7 +29,7 @@ app.delete("/notes/:id", async (req, res) => {
   });
   res.status(200).json({
     message: "Note deleted successfully",
-  });
+  });                                                                                                                                                                
 });
 
 app.patch("/notes/:id", async (req, res) => {
